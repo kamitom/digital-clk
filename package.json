@@ -1,0 +1,12 @@
+{
+  "name": "digital-clk",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack-cli --config ./webpack.config.js",
+    "count-words": "echo \"$@\" | wc -w",
+    "start2": "http-server -c-1 -p 8090"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
