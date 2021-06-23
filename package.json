@@ -4,9 +4,11 @@
     "test": "jest",
     "build": "webpack-cli --config ./webpack.config.js",
     "count-words": "echo \"$@\" | wc -w",
-    "start2": "http-server -c-1 -p 8090"
+    "start2": "http-server -c-1 -p 8999",
+    "start": "serve -l 8088"
   },
   "dependencies": {
-    "http-server": "^0.12.3"
+    "http-server": "^0.12.3",
+    "serve": "^12.0.0"
   }
 }
